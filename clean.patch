@@ -1,0 +1,83 @@
+diff --git a/CURRENT_STATUS.md b/CURRENT_STATUS.md
+deleted file mode 100644
+index e69de29..0000000
+--- a/CURRENT_STATUS.md
++++ /dev/null
+@@ -1,200 +0,0 @@
+-# CURRENT STATUS
+-...
+-# (Entire file removed – contains predictions & research roadmap)
+
+diff --git a/OVERVIEW.md b/OVERVIEW.md
+deleted file mode 100644
+index e69de29..0000000
+--- a/OVERVIEW.md
++++ /dev/null
+@@ -1,200 +0,0 @@
+-# UBT Overview
+-...
+-# (Entire file removed – contained mass predictions, alpha fits, roadmap)
+
+diff --git a/canonical/consciousness/psychons.tex b/canonical/consciousness/psychons.tex
+deleted file mode 100644
+index 12ab33e..0000000
+--- a/canonical/consciousness/psychons.tex
++++ /dev/null
+@@ -1,120 +0,0 @@
+-% Psychon field (speculative) removed from canonical public repo.
+-...
+
+diff --git a/canonical/appendices/symbol_dictionary.tex b/canonical/appendices/symbol_dictionary.tex
+index 9c25a21..2a81bd1 100644
+--- a/canonical/appendices/symbol_dictionary.tex
++++ b/canonical/appendices/symbol_dictionary.tex
+@@ -141,7 +141,7 @@
+ $\alpha$ & Fine structure constant &
+-    $\approx 1/137.036$ & Predicted \\
++    $\approx 1/137$ & Experimental parameter \\
+
+diff --git a/README.md b/README.md
+index a81b233..1f2aa90 100644
+--- a/README.md
++++ b/README.md
+@@ -1,60 +1,42 @@
+ # Unified Biquaternion Theory — Canonical Version
+
+-## Key Predictions
+-- Fine structure constant α: predicted 1/137.036 (0.00003% deviation)
+-- Electron mass me: predicted 0.510–0.511 MeV
+-- Comparison tables and percentage deviations
+
+-## Deprecated / Removed Internal Modules
+-- `speculative_extensions/`
+-- `ubt_masses/`
+-- `scripts/ubt_complete_fermion_derivation.py`
+
++This repository contains the **canonical, non-speculative formulation**
++of the Unified Biquaternion Theory (UBT).  
++It includes:
++
++• Biquaternionic field structure Θ(q, τ)  
++• Complex-time framework τ = t + iψ  
++• Canonical derivation of gauge structures compatible with the Standard Model  
++• Tensor formulation, metric emergence, SU(3) sector, and Hermitian limit  
++
++No numerical predictions, phenomenological fits,  
++or speculative consciousness-sector models are included here.
++
++### Repository Structure
++
++**canonical/** — rigorous field equations, Lagrangians, gauge sector  
++**core/** — axiom sets, algebraic definitions  
++**docs/** — verification report, classification, glossary  
++
++### Status
++This is the public canonical theory.  
++Research extensions (mass predictions, psychon sector, spectral fits,  
++CTC structures, numerical solvers, etc.) are maintained in a  
++**separate private repository**.
++
+ ### License
+ MIT for code, CC BY 4.0 for text.
+
+
