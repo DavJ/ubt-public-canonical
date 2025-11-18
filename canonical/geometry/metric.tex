@@ -8,7 +8,7 @@
 
 \subsection{Canonical Definition}
 
-The spacetime metric tensor emerges from the fundamental biquaternion field $\Theta(q,\tau)$ via:
+The spacetime metric tensor emerges from the fundamental biquaternion field $\Theta(q,T_B)$ via:
 
 \begin{equation}
 \label{eq:canonical:metric}
@@ -17,11 +17,23 @@ The spacetime metric tensor emerges from the fundamental biquaternion field $\Th
 
 \noindent where:
 \begin{itemize}
+    \item $\Theta(q,T_B)$ is the biquaternion field with $T_B = t + i\psi + j\chi + k\xi$ (canonical biquaternion time)
     \item $\partial_\mu = \frac{\partial}{\partial x^\mu}$ is the partial derivative with respect to spacetime coordinate $x^\mu$
     \item $\Theta^\dagger$ is the Hermitian conjugate of $\Theta$ (see Eq.~\ref{eq:canonical:theta_hermitian})
     \item $\text{Tr}$ denotes the matrix trace
     \item $\text{Re}$ denotes the real part
 \end{itemize}
+
+\subsection{Complex-Time Reduction}
+
+In the isotropic limit where directional components vanish ($\chi = \xi = 0$), the canonical biquaternion time $T_B$ reduces to the complex time $\tau = t + i\psi$, and the field $\Theta(q,T_B)$ reduces to $\Theta(q,\tau)$. In this limit, the metric can be written as:
+
+\begin{equation}
+\label{eq:canonical:metric_complex_time}
+g_{\mu\nu}(\Theta(\tau)) = \text{Re}\,\text{Tr}\left(\partial_\mu\Theta(\tau) \, \partial_\nu\Theta^\dagger(\tau)\right)
+\end{equation}
+
+This complex-time form is used in many practical calculations where spherical symmetry or weak coupling applies.
 
 \subsection{Index Convention}
 

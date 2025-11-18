@@ -3,12 +3,20 @@
 The fundamental equation of the Unified Biquaternion Theory (UBT) is the
 \textbf{T-shirt formula}
 \begin{equation}
-    \nabla^{\dagger}\nabla\,\Theta(q,\tau) = \kappa\,\mathcal{T}(q,\tau),
+    \nabla^{\dagger}\nabla\,\Theta(q,T_B) = \kappa\,\mathcal{T}(q,T_B),
     \label{eq:tshirt}
 \end{equation}
-where $\Theta(q,\tau)$ is the biquaternionic field, $\mathcal{T}$ is the
+where $\Theta(q,T_B)$ is the canonical biquaternionic field defined over biquaternion time $T_B = t + i\psi + j\chi + k\xi$, $\mathcal{T}$ is the
 energy–momentum source term, and $\kappa$ is a gravitational–gauge coupling
 constant proportional to $8\pi G$.
+
+\paragraph{Complex-Time Reduction.}
+In the isotropic limit where $\chi = \xi = 0$, the canonical objects reduce to their complex-time forms: $T_B \to \tau = t + i\psi$ and $\Theta(q,T_B) \to \Theta(q,\tau)$. The T-shirt equation then becomes:
+\begin{equation}
+    \nabla^{\dagger}\nabla\,\Theta(q,\tau) = \kappa\,\mathcal{T}(q,\tau).
+    \label{eq:tshirt_complex}
+\end{equation}
+Much of the literature uses this complex-time form for practical calculations.
 
 This equation is intentionally compact. All fundamental interactions
 (gravity + Standard Model gauge forces) are encoded inside the single
