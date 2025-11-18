@@ -2,9 +2,14 @@
 
 This repository contains the **canonical, non-speculative formulation** of the Unified Biquaternion Theory (UBT).
 
-UBT is built around a biquaternionic field
-$$\Theta(q, \tau), \quad q \in \mathbb{H}_\mathbb{C}, \; \tau = t + i\psi,$$
-and provides a unified geometric framework for:
+UBT is built around a **biquaternion-valued field** defined over **biquaternion time**:
+$$\Theta(q, T_B), \quad q \in \mathbb{H}_\mathbb{C}, \; T_B = t + i\psi + j\chi + k\xi,$$
+where $t$ is real time and $\psi, \chi, \xi$ are dynamical imaginary time components.
+
+In the **complex-time reduction** (when directional isotropy applies: $\chi = \xi = 0$), this reduces to:
+$$\Theta(q, \tau), \quad \tau = t + i\psi.$$
+
+The theory provides a unified geometric framework for:
 
 - biquaternionic field geometry and complex-time dynamics,
 - the emergence of a metric and stress–energy tensor from \(\Theta\),

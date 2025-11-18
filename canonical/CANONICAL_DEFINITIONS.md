@@ -137,9 +137,9 @@ Previous conflicting versions:
 3. ❌ 4D biquaternion (old preprint) - lacked clear definition
 
 **Canonical Version**: 
-- **Θ is a biquaternion** Θ(q,τ) ∈ B = H ⊗ ℂ
+- **Θ is a biquaternion** Θ(q,T_B) ∈ B = H ⊗ ℂ where T_B = t + iψ + jχ + kξ
 - **Matrix forms** are computational representations only
-- Works with complex time τ = t + iψ
+- Complex time τ = t + iψ is the **reduction** when χ = ξ = 0
 
 ---
 

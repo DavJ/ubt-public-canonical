@@ -8,7 +8,7 @@
 
 \subsection{Canonical Definition}
 
-The energy-momentum (stress-energy) tensor for the biquaternion field $\Theta(q,\tau)$ is:
+The energy-momentum (stress-energy) tensor for the biquaternion field $\Theta(q,T_B)$ is:
 
 \begin{equation}
 \label{eq:canonical:stress_energy}
@@ -17,11 +17,16 @@ The energy-momentum (stress-energy) tensor for the biquaternion field $\Theta(q,
 
 \noindent where:
 \begin{itemize}
+    \item $\Theta(q,T_B)$ is the canonical biquaternion field with $T_B = t + i\psi + j\chi + k\xi$
     \item $\partial_\mu = \frac{\partial}{\partial x^\mu}$ is the partial derivative
     \item $g_{\mu\nu}$ is the metric tensor (Eq.~\ref{eq:canonical:metric})
     \item $g^{\alpha\beta}$ is the inverse metric
     \item Matrix multiplication is implied for $\Theta$ products
 \end{itemize}
+
+\subsection{Complex-Time Reduction}
+
+In the complex-time reduction where $\chi = \xi = 0$, so that $T_B \to \tau = t + i\psi$ and $\Theta(q,T_B) \to \Theta(q,\tau)$, the stress-energy tensor takes the same form with the reduced field $\Theta(q,\tau)$. This reduction is useful for isotropic systems and weak-field approximations.
 
 \subsection{Alternative Equivalent Form}
 
