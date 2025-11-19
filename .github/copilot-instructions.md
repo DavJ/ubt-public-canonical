@@ -2,7 +2,11 @@
 
 ## Repository Overview
 
-This repository contains the **Unified Biquaternion Theory (UBT)**, a theoretical physics framework that unifies General Relativity, Quantum Field Theory, and Standard Model symmetries within a biquaternionic field defined over complex time τ = t + iψ. The repository also includes the **Complex Consciousness Theory (CCT)**, which applies UBT principles to model consciousness as a physical phenomenon.
+This repository contains the **Unified Biquaternion Theory (UBT)**, a theoretical physics framework that unifies General Relativity, Quantum Field Theory, and Standard Model symmetries within a biquaternionic field $\Theta(q,T_B) \in \mathcal{B} = \mathbb{H} \otimes \mathbb{C}$ defined over **biquaternion time** $T_B = t + i\psi + j\chi + k\xi$. 
+
+**CRITICAL**: The fundamental time coordinate in UBT is **biquaternion time** $T_B = t + i\psi + j\chi + k\xi$. Complex time $\tau = t + i\psi$ is a **derived reduction** (isotropic limit when $\chi = \xi = 0$), not the primary definition. Similarly, the fundamental field is $\Theta(q,T_B)$, with $\Theta(q,\tau)$ being its restriction to the complex-time slice.
+
+The repository also includes the **Complex Consciousness Theory (CCT)**, which applies UBT principles to model consciousness as a physical phenomenon.
 
 **Author**: David Jaroš  
 **Primary Content**: LaTeX research documents, mathematical derivations, and computational scripts
@@ -341,7 +345,7 @@ See appendix_R_GR_equivalence.tex for detailed derivation.
 Refer to `RESEARCH_PRIORITIES.md` for current focus areas:
 1. Formal consolidation of UBT core equations
 2. Padic extensions and dark sector physics
-3. Psychon dynamics in complex time
+3. Psychon dynamics in biquaternion/complex time
 4. Closed Timelike Curve (CTC) solutions
 5. Electromagnetism in curved space
 6. Experimental design: Theta Resonator
@@ -369,7 +373,9 @@ Refer to `RESEARCH_PRIORITIES.md` for current focus areas:
 
 ## Repository Overview
 
-This repository contains the **Unified Biquaternion Theory (UBT)**, a unified physical theory combining General Relativity, Quantum Field Theory, and Standard Model symmetries within a biquaternionic field defined over complex time τ = t + iψ. The repository is primarily a LaTeX-based theoretical physics research project with some supporting Python scripts.
+This repository contains the **Unified Biquaternion Theory (UBT)**, a unified physical theory combining General Relativity, Quantum Field Theory, and Standard Model symmetries within a biquaternionic field $\Theta(q,T_B) \in \mathcal{B} = \mathbb{H} \otimes \mathbb{C}$ defined over **biquaternion time** $T_B = t + i\psi + j\chi + k\xi$. 
+
+**CRITICAL**: The fundamental time coordinate is **biquaternion time** $T_B = t + i\psi + j\chi + k\xi$. Complex time $\tau = t + iψ$ is a **derived reduction** (isotropic limit), not the primary definition. The repository is primarily a LaTeX-based theoretical physics research project with some supporting Python scripts.
 
 **Author**: Ing. David Jaroš (some consolidated documents use "UBT Team")  
 **License**: See LICENSE.md  
@@ -407,7 +413,8 @@ This repository contains the **Unified Biquaternion Theory (UBT)**, a unified ph
 
 - **UBT**: Unified Biquaternion Theory - the main theoretical framework
 - **CCT**: Complex Consciousness Theory - simplified application of UBT for consciousness modeling
-- **Complex time**: τ = t + iψ where ψ is the imaginary time component
+- **Biquaternion time**: $T_B = t + i\psi + j\chi + k\xi$ - the fundamental time coordinate (canonical)
+- **Complex time**: $\tau = t + i\psi$ - derived reduction when $\chi = \xi = 0$ (isotropic limit)
 - **Biquaternions**: Mathematical foundation combining quaternions with complex coefficients
 - **Psychons**: Quantum excitations of consciousness within complex-time phase space
 - **CTCs**: Closed Timelike Curves - geometric solutions for time-travel

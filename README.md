@@ -2,12 +2,20 @@
 
 This repository contains the **canonical, non-speculative formulation** of the Unified Biquaternion Theory (UBT).
 
+## Fundamental Structure
+
 UBT is built around a **biquaternion-valued field** defined over **biquaternion time**:
-$$\Theta(q, T_B), \quad q \in \mathbb{H}_\mathbb{C}, \; T_B = t + i\psi + j\chi + k\xi,$$
+$$\Theta(q, T_B) \in \mathcal{B} = \mathbb{H} \otimes \mathbb{C}, \quad q \in \mathbb{H}_\mathbb{C}, \; T_B = t + i\psi + j\chi + k\xi,$$
 where $t$ is real time and $\psi, \chi, \xi$ are dynamical imaginary time components.
+
+**This is the primary, fundamental definition.** All components of $T_B$ are dynamical physical fields with equations of motion.
 
 In the **complex-time reduction** (when directional isotropy applies: $\chi = \xi = 0$), this reduces to:
 $$\Theta(q, \tau), \quad \tau = t + i\psi.$$
+
+This complex-time formulation is a **simplification** of the canonical biquaternion structure, valid for spherically symmetric systems, weak coupling, and isotropic scenarios. It is not the fundamental formulation.
+
+The hierarchy is: **Biquaternion time $T_B$ (fundamental) → Complex time $\tau$ (isotropic reduction) → Classical time $t$ (GR limit)**
 
 The theory provides a unified geometric framework for:
 

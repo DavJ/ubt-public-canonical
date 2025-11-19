@@ -19,22 +19,30 @@ Complete reference guide for mathematical notation and symbols used throughout t
 
 ---
 
-## Spacetime and Complex Time
+## Spacetime and Biquaternion/Complex Time
 
 | Symbol | Description | Units | Notes |
 |--------|-------------|-------|-------|
-| τ | Complex time: τ = t + iψ | [time] | Fundamental to UBT |
+| T_B | Biquaternion time: T_B = t + iψ + jχ + kξ | [time] | **Fundamental/canonical** |
+| τ | Complex time: τ = t + iψ | [time] | Isotropic reduction of T_B |
 | t | Real time coordinate | [time] | Standard temporal dimension |
-| ψ | Imaginary time/phase coordinate | [dimensionless] or [time] | Internal/cognitive dynamics |
+| ψ | Scalar imaginary time component | [time] | Isotropic phase structure |
+| χ, ξ | Vector imaginary time components | [time] | Directional phase structure |
 | x^μ | Spacetime coordinates (μ=0,1,2,3) | [length] | Standard Lorentzian |
 | q^μ | Biquaternion coordinates | — | On manifold ℬ⁴ |
 | ℬ⁴ | Biquaternionic manifold: (ℂ⊗ℍ)⁴ | — | Core geometric structure |
 | ℂ⁵ | 5D complex manifold (x^μ, ψ) | — | Alternative formulation |
 
-**Complex Time Details:**
-- τ = t + iψ where t is real (observable) time and ψ is phase/imaginary component
-- Topology: 𝕋² (2-torus) due to ψ ~ ψ + 2πR_ψ
-- Physical interpretation: t = external evolution, ψ = internal phase dynamics
+**Biquaternion Time Details:**
+- **Primary definition**: T_B = t + iψ + jχ + kξ (canonical, most general)
+- **Complex-time reduction**: τ = t + iψ when χ = ξ = 0 (isotropic limit)
+- **Classical limit**: t when all imaginary components vanish
+- **Hierarchy**: T_B (biquaternion) → τ (complex) → t (classical)
+- Topology: Torus structure due to periodicity in imaginary components
+- Physical interpretation: 
+  - t = observable time
+  - ψ = isotropic phase/consciousness substrate
+  - χ, ξ = directional phase/torsion/anisotropic dark matter
 
 ---
 
@@ -42,7 +50,8 @@ Complete reference guide for mathematical notation and symbols used throughout t
 
 | Symbol | Description | Type | Notes |
 |--------|-------------|------|-------|
-| Θ(q) or Θ(q,τ) | Unified biquaternionic field | Tensor-spinor-gauge | Encodes all interactions |
+| Θ(q,T_B) | Unified biquaternionic field | Biquaternion | **Canonical definition** |
+| Θ(q,τ) | Complex-time reduction of Θ | Biquaternion | Restriction to τ = t + iψ |
 | Ψ | Wave function or quantum state | Spinor | Context-dependent |
 | φ | Scalar field | Scalar | Generic notation |
 | A_μ | Gauge field (EM or general) | Vector | U(1) gauge connection |
@@ -56,8 +65,9 @@ Complete reference guide for mathematical notation and symbols used throughout t
 | ∇† | Adjoint covariant derivative | Operator | Used in field equations |
 
 **Field Equations:**
-- Master equation: ∇†∇Θ(q,τ) = κ𝒯(q,τ)
-- Reduces to Einstein equations when ψ = 0
+- **Canonical master equation**: ∇†∇Θ(q,T_B) = κ𝒯(q,T_B)
+- **Complex-time form**: ∇†∇Θ(q,τ) = κ𝒯(q,τ) (when χ = ξ = 0)
+- Reduces to Einstein equations when all imaginary time components vanish
 
 ---
 

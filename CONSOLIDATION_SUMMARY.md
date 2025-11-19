@@ -10,6 +10,8 @@
 
 This consolidation effort successfully reduced documentation redundancy and improved repository organization while preserving all historical content for reference.
 
+**Note on Canonical Structure:** As part of the consolidation, the `canonical/` directory was established as the single source of truth for all core UBT definitions. The fundamental time coordinate is **biquaternion time** $T_B = t + i\psi + j\chi + k\xi$, with **complex time** $\tau = t + i\psi$ being a derived reduction (isotropic limit). See `canonical/fields/biquaternion_time.tex` and `canonical/CANONICAL_DEFINITIONS.md` for details.
+
 ## Key Achievements
 
 ### 1. Documentation Reduction
