@@ -34,7 +34,19 @@ canonical/
 
 ## Principles
 
-### 1. Single Definition Rule
+### 1. Canonical Time and Field Hierarchy
+
+**The fundamental definitions are:**
+- **Biquaternion time**: $T_B = t + i\psi + j\chi + k\xi$ (defined in `canonical/fields/biquaternion_time.tex`)
+- **Biquaternion field**: $\Theta(q,T_B) \in \mathcal{B} = \mathbb{H} \otimes \mathbb{C}$ (defined in `canonical/fields/theta_field.tex`)
+
+**Derived/reduced structures:**
+- **Complex time**: $\tau = t + i\psi$ is a reduction when $\chi = \xi = 0$ (isotropic limit)
+- **Classical time**: $t$ is the limit when all imaginary components vanish (GR limit)
+
+All other documents in the repository must treat $T_B$ and $\Theta(q,T_B)$ as primary, and $\tau$ and $\Theta(q,\tau)$ as derived simplifications.
+
+### 2. Single Definition Rule
 Each concept has **exactly one** canonical definition in this directory. All other documents must reference or include from here.
 
 ### 2. Conflict Resolution

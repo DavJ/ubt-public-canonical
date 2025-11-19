@@ -8,12 +8,14 @@
 
 \subsection*{Scope}
 
-This appendix starts from the canonical biquaternion time $T_B = t + i\psi + j\chi + k\xi$ and field $\Theta(q,T_B)$, and then works in the \textbf{complex-time reduction} where $\chi = \xi = 0$, such that:
+This appendix starts from the canonical biquaternion time $T_B = t + i\psi + j\chi + k\xi$ and field $\Theta(q,T_B) \in \mathcal{B} = \mathbb{H} \otimes \mathbb{C}$ as defined in \texttt{canonical/fields/biquaternion\_time.tex} and \texttt{canonical/fields/theta\_field.tex}. We then work in the \textbf{complex-time reduction} where $\chi = \xi = 0$, such that:
 \begin{itemize}
     \item $T_B \mapsto \tau = t + i\psi$ (complex time)
     \item $\Theta(q,T_B) \mapsto \Theta(q,\tau)$ (field restricted to complex-time slice)
 \end{itemize}
 The phase dynamics and theta function structure discussed here apply within this complex-time framework.
+
+\textbf{Note on derivatives:} The drift-diffusion operators and complex-time derivatives $\partial/\partial\tau$ used in this appendix are derived from the canonical biquaternion time structure. They represent the restriction of the full biquaternion derivative $\partial/\partial T_B$ to the complex-time slice $\tau = t + i\psi$, not independent definitions.
 
 \subsection*{H.1 Overview}
 

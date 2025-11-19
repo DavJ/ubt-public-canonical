@@ -6,6 +6,20 @@
 
 ---
 
+## CRITICAL: Canonical Hierarchy
+
+**PRIMARY DEFINITIONS (Fundamental)**:
+- **Biquaternion time**: $T_B = t + i\psi + j\chi + k\xi$ (Section 1 below)
+- **Biquaternion field**: $\Theta(q, T_B) \in \mathcal{B} = \mathbb{H} \otimes \mathbb{C}$ (Section 2 below)
+
+**DERIVED REDUCTIONS (Simplified)**:
+- **Complex time**: $\tau = t + i\psi$ is the isotropic limit when $\chi = \xi = 0$
+- **Complex-time field**: $\Theta(q, \tau)$ is the restriction of $\Theta(q, T_B)$ to the complex-time slice
+
+**All documents in this repository must treat $T_B$ and $\Theta(q,T_B)$ as primary, and $\tau$ and $\Theta(q,\tau)$ as derived reductions, not as fundamental definitions.**
+
+---
+
 ## 1. Biquaternion Time T_B (Canonical)
 
 ### Canonical Definition
